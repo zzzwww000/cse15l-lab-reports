@@ -9,7 +9,7 @@
 
 ## Step 1: Visual Studio Code and GIT
 
-  **Visual Studio Code**
+**Visual Studio Code**
   
   For this course, you will need Visual Studio Code as a necessary platform of coding.
   Go to [Link](https://code.visualstudio.com/) for downloading the installation pack.
@@ -23,7 +23,7 @@
   > disk should have as much free space as possible.
 
 
-  **Git**
+**Git**
   
   In this course, we are running some code blocks on remote servers, which requires the use of Git.
   Go to [Link](https://gitforwindows.org/) for downloads.
@@ -34,19 +34,20 @@
   > If you install the Git to default path, you may skip the following step: "Configuring Git and VSC."
 
 
-  **Configuring Git and Visual Studio Code**
+**Configuring Git and Visual Studio Code**
   
-  After installing Git, we need to set it up in Visual Studio Code. You may find following steps helpful:
+After installing Git, we need to set it up in Visual Studio Code. You may find following steps helpful:
   
-    *Go to Visual Studio Code, and press `Ctrl` + ``` to call terminal
+*Go to Visual Studio Code, and press `Ctrl` + ``` to call terminal
     
-    *Press `Ctrl` + `Shift` + `P` to turn on the command palette
+*Press `Ctrl` + `Shift` + `P` to turn on the command palette
     
-    *Type `Preferences: Open Settings (JSON)` to open the configuration files
+*Type `Preferences: Open Settings (JSON)` to open the configuration files
     
-    *Add following lines to your Settings:
-      >These lines are based on [Link](https://stackoverflow.com/a/73976823), whose codes of settings
-```
+*Add following lines to your Settings:
+>These lines are based on [Link](https://stackoverflow.com/a/73976823), whose codes of settings
+      
+      ```
       "terminal.integrated.profiles.windows": { 
         "GitBash": {
           "path": "_Path of Your bash.exe_",
@@ -57,4 +58,4 @@
       "git.enabled": true,
       "git.path": "_Path of Your bash.exe_",
       "terminal.integrated.shell.windows": "_Path of Your bash.exe_"
-```
+      ```
