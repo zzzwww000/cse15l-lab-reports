@@ -2,13 +2,12 @@
   _Created by: Zichen Wang_
 
 
-# Description
-
+## Description
   This report includes a brief instruction on how to set up your cse15l account, install necessary software
   and try out some commands.
 
 
-# Step 1: Visual Studio Code and GIT
+## Step 1: Visual Studio Code and GIT
   **Visual Studio Code**
   
   For this course, you will need Visual Studio Code as a necessary platform of coding.
@@ -23,4 +22,7 @@
   > disk should have as much free space as possible.
 
   **Git**
-  Git 
+  
+  In this course, we are running some code blocks on remote servers, which requires the use of Git.
+  Go to [Link](https://gitforwindows.org/) for downloads.
+  
