@@ -8,6 +8,7 @@
 
 
 ## Step 1: Visual Studio Code and GIT
+
   **Visual Studio Code**
   
   For this course, you will need Visual Studio Code as a necessary platform of coding.
@@ -21,6 +22,7 @@
   > Notes: you may consider installing your VSC to other disks other than C: since system 
   > disk should have as much free space as possible.
 
+
   **Git**
   
   In this course, we are running some code blocks on remote servers, which requires the use of Git.
@@ -31,6 +33,25 @@
 
   > If you install the Git to default path, you may skip the following step: "Configuring Git and VSC."
 
+
   **Configuring Git and Visual Studio Code**
   
+  After installing Git, we need to set it up in Visual Studio Code. You may find following steps helpful:
   
+    *Go to Visual Studio Code, and press `Ctrl` + ``` to call terminal
+    
+    *Press `Ctrl` + `Shift` + `P` to turn on the command palette
+    
+    *Type `Preferences: Open Settings (JSON)` to open the configuration files
+    
+    *Add following lines to your Settings:
+      `"terminal.integrated.profiles.windows": {
+        "GitBash": {
+          "path": "D:\\Programming\\Git\\Git\\git-bash.exe",
+          "icon": "terminal-bash"
+        }
+      },
+      "terminal.integrated.defaultProfile.windows": "Git Bash",
+      "git.enabled": true,
+      "git.path": "D:\\Programming\\Git\\Git\\git-bash.exe",
+      "terminal.integrated.shell.windows": "D:\\Programming\\Git\\Git\\git-bash.exe"`
