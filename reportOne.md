@@ -46,7 +46,7 @@
     
     *Add following lines to your Settings:
       >These lines are based on [Link](https://stackoverflow.com/a/73976823), whose codes of settings
-      ```
+```
       "terminal.integrated.profiles.windows": { 
         "GitBash": {
           "path": "_Path of Your bash.exe_",
@@ -57,4 +57,4 @@
       "git.enabled": true,
       "git.path": "_Path of Your bash.exe_",
       "terminal.integrated.shell.windows": "_Path of Your bash.exe_"
-      ```
+```
