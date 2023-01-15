@@ -25,4 +25,4 @@
   
   In this course, we are running some code blocks on remote servers, which requires the use of Git.
   Go to [Link](https://gitforwindows.org/) for downloads.
-  
+  After you click the download button the page 
