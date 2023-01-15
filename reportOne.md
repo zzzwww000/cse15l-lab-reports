@@ -45,13 +45,16 @@
     *Type `Preferences: Open Settings (JSON)` to open the configuration files
     
     *Add following lines to your Settings:
-      `"terminal.integrated.profiles.windows": {
+      >These lines are based on [Link](https://stackoverflow.com/a/73976823), whose codes of settings
+      ```
+      "terminal.integrated.profiles.windows": { 
         "GitBash": {
-          "path": "D:\\Programming\\Git\\Git\\git-bash.exe",
+          "path": "_Path of Your bash.exe_",
           "icon": "terminal-bash"
         }
       },
       "terminal.integrated.defaultProfile.windows": "Git Bash",
       "git.enabled": true,
-      "git.path": "D:\\Programming\\Git\\Git\\git-bash.exe",
-      "terminal.integrated.shell.windows": "D:\\Programming\\Git\\Git\\git-bash.exe"`
+      "git.path": "_Path of Your bash.exe_",
+      "terminal.integrated.shell.windows": "_Path of Your bash.exe_"
+      ```
