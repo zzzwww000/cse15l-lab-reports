@@ -25,4 +25,12 @@
   
   In this course, we are running some code blocks on remote servers, which requires the use of Git.
   Go to [Link](https://gitforwindows.org/) for downloads.
-  After you click the download button the page 
+  
+  Similar to the process when you install the visual studio code, you can simply follow the guidelines to complete the installation process.
+  > Notes: For Git, it is highly recommended to install it to the default path, since you do not need to configure it in VSC if you do so.
+
+  > If you install the Git to default path, you may skip the following step: "Configuring Git and VSC."
+
+  **Configuring Git and Visual Studio Code**
+  
+  
