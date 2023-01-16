@@ -30,6 +30,8 @@
   In this course, we are running some code blocks on remote servers, which requires the use of Git.
   Go to [Link](https://gitforwindows.org/) for downloads.
   
+  ![Image](Screenshots/screen2.png)
+  
   Similar to the process when you install the visual studio code, you can simply follow the guidelines to complete the installation process.
   > Notes: For Git, it is highly recommended to install it to the default path, since you do not need to configure it in VSC if you do so.
 
@@ -41,11 +43,11 @@
 After installing Git, we need to set it up in Visual Studio Code. You may find following steps helpful:
   
 *Go to Visual Studio Code, and press `Ctrl` + ` to call terminal
-    
+
 *Press `Ctrl` + `Shift` + `P` to turn on the command palette
-    
+
 *Type `Preferences: Open Settings (JSON)` to open the configuration files
-    
+![Image](Screenshots/screen3.png)
 *Add following lines to your Settings:
 >These lines are based on [Link](https://stackoverflow.com/a/73976823), whose codes of settings
       
@@ -61,9 +63,10 @@ After installing Git, we need to set it up in Visual Studio Code. You may find f
       "git.path": "_Path of Your bash.exe_",
       "terminal.integrated.shell.windows": "_Path of Your bash.exe_"
       ```
+![Image](Screenshots/screen4.png)
 After setting up, check out your VSC by opening terminal of gitbash. It should be like this:
-
-Or directly accessible in VSC Terminals:
+![Image](Screenshots/screen5.png)
+Or directly accessible in VSC Terminals.
 
 
 ## Step 2: Your UCSD Student Account for using in cse15l
@@ -71,7 +74,7 @@ Or directly accessible in VSC Terminals:
   To access your ucsd accounts accociated with your PID, visit [Link](https://sdacs.ucsd.edu/~icc/index.php)
   
   In this page, find your "Additional Accounts"
-  
+  ![Image](Screenshots/screen6.png)
   Click and set up your password.
   
   >Notes: you may encounter several password changing request failure, try to restart your device or change your password choice.
@@ -91,7 +94,7 @@ Or directly accessible in VSC Terminals:
   
   After successfully logging in, you should see things like this:
   
-  
+  ![Image](Screenshots/screen7.png)
    **Trying out some commands**
    
   Following commands are provided as some references to your testing inputs.
@@ -106,4 +109,4 @@ Or directly accessible in VSC Terminals:
     ```
     
    Here are some of the results from testing inputs:
-   
+   ![Image](Screenshots/screen9.png)
