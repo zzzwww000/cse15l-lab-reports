@@ -15,7 +15,7 @@
   Go to [Link](https://code.visualstudio.com/) for downloading the installation pack.
   After you click the download button the page should be like this.
   
-  ![Image](Screenshots/screen1.png)
+  ![Image](Screenshots1/screen1.png)
   
   Now, go to your download folder, and find the installation pack (should be an executable application).
   Follow the guidelines to get the application installed.
@@ -30,7 +30,7 @@
   In this course, we are running some code blocks on remote servers, which requires the use of Git.
   Go to [Link](https://gitforwindows.org/) for downloads.
   
-  ![Image](Screenshots/screen2.png)
+  ![Image](Screenshots1/screen2.png)
   
   Similar to the process when you install the visual studio code, you can simply follow the guidelines to complete the installation process.
   > Notes: For Git, it is highly recommended to install it to the default path, since you do not need to configure it in VSC if you do so.
@@ -48,7 +48,7 @@ After installing Git, we need to set it up in Visual Studio Code. You may find f
 
 *Type `Preferences: Open Settings (JSON)` to open the configuration files
 
-![Image](Screenshots/screen3.png)
+![Image](Screenshots1/screen3.png)
 
 *Add following lines to your Settings:
 >These lines are based on [Link](https://stackoverflow.com/a/73976823), whose codes of settings
@@ -66,11 +66,11 @@ After installing Git, we need to set it up in Visual Studio Code. You may find f
       "terminal.integrated.shell.windows": "_Path of Your bash.exe_"
       ```
       
-![Image](Screenshots/screen4.png)
+![Image](Screenshots1/screen4.png)
 
 After setting up, check out your VSC by opening terminal of gitbash. It should be like this:
 
-![Image](Screenshots/screen5.png)
+![Image](Screenshots1/screen5.png)
 
 Or directly accessible in VSC Terminals.
 
@@ -81,7 +81,7 @@ Or directly accessible in VSC Terminals.
   
   In this page, find your "Additional Accounts"
   
-  ![Image](Screenshots/screen6.png)
+  ![Image](Screenshots1/screen6.png)
   
   Click and set up your password.
   
@@ -103,7 +103,7 @@ Or directly accessible in VSC Terminals.
   
   After successfully logging in, you should see things like this:
   
-  ![Image](Screenshots/screen7.png)
+  ![Image](Screenshots1/screen7.png)
   
    **Trying out some commands**
    
@@ -120,4 +120,4 @@ Or directly accessible in VSC Terminals.
     
    Here are some of the results from testing inputs:
    
-   ![Image](Screenshots/screen9.png)
+   ![Image](Screenshots1/screen9.png)
