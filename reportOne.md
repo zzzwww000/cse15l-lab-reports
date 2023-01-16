@@ -47,7 +47,9 @@ After installing Git, we need to set it up in Visual Studio Code. You may find f
 *Press `Ctrl` + `Shift` + `P` to turn on the command palette
 
 *Type `Preferences: Open Settings (JSON)` to open the configuration files
+
 ![Image](Screenshots/screen3.png)
+
 *Add following lines to your Settings:
 >These lines are based on [Link](https://stackoverflow.com/a/73976823), whose codes of settings
       
@@ -63,9 +65,13 @@ After installing Git, we need to set it up in Visual Studio Code. You may find f
       "git.path": "_Path of Your bash.exe_",
       "terminal.integrated.shell.windows": "_Path of Your bash.exe_"
       ```
+      
 ![Image](Screenshots/screen4.png)
+
 After setting up, check out your VSC by opening terminal of gitbash. It should be like this:
+
 ![Image](Screenshots/screen5.png)
+
 Or directly accessible in VSC Terminals.
 
 
@@ -74,7 +80,9 @@ Or directly accessible in VSC Terminals.
   To access your ucsd accounts accociated with your PID, visit [Link](https://sdacs.ucsd.edu/~icc/index.php)
   
   In this page, find your "Additional Accounts"
+  
   ![Image](Screenshots/screen6.png)
+  
   Click and set up your password.
   
   >Notes: you may encounter several password changing request failure, try to restart your device or change your password choice.
@@ -95,6 +103,7 @@ Or directly accessible in VSC Terminals.
   After successfully logging in, you should see things like this:
   
   ![Image](Screenshots/screen7.png)
+  
    **Trying out some commands**
    
   Following commands are provided as some references to your testing inputs.
@@ -109,4 +118,5 @@ Or directly accessible in VSC Terminals.
     ```
     
    Here are some of the results from testing inputs:
+   
    ![Image](Screenshots/screen9.png)
