@@ -14,7 +14,9 @@
   For this course, you will need Visual Studio Code as a necessary platform of coding.
   Go to [Link](https://code.visualstudio.com/) for downloading the installation pack.
   After you click the download button the page should be like this.
-  ![Image](screen1.png)
+  
+  ![Image](Screenshots/screen1.png)
+  
   Now, go to your download folder, and find the installation pack (should be an executable application).
   Follow the guidelines to get the application installed.
   
