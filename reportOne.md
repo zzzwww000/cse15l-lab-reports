@@ -1,5 +1,5 @@
 # **CSE15L WI23 REPORT 1**
-  _Created by: Zichen Wang_
+  _Created by: ZC Wang_
 
 
 ## Description
