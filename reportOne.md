@@ -76,3 +76,12 @@ Or directly accessible in VSC Terminals:
 
   >Any changes in passwords may require some time to reflect in your account settings.
 
+## Step 3: Remote Connection and Running Commands
+
+  After getting software installed and accounts set, we start to use the terminals.
+  
+  **Using SSH for remote access**
+  
+  Open the terminal again by `Ctrl` + ```
+  Then, type `ssh cs15lwi23(your letters)@ieng6.ucsd.edu`
+  
