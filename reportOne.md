@@ -59,3 +59,20 @@ After installing Git, we need to set it up in Visual Studio Code. You may find f
       "git.path": "_Path of Your bash.exe_",
       "terminal.integrated.shell.windows": "_Path of Your bash.exe_"
       ```
+After setting up, check out your VSC by opening terminal of gitbash. It should be like this:
+
+Or directly accessible in VSC Terminals:
+
+
+## Step 2: Your UCSD Student Account for using in cse15l
+
+  To access your ucsd accounts accociated with your PID, visit [Link](https://sdacs.ucsd.edu/~icc/index.php)
+  
+  In this page, find your "Additional Accounts"
+  
+  Click and set up your password.
+  
+  >Notes: you may encounter several password changing request failure, try to restart your device or change your password choice.
+
+  >Any changes in passwords may require some time to reflect in your account settings.
+
