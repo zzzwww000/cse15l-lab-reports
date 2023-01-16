@@ -38,7 +38,7 @@
   
 After installing Git, we need to set it up in Visual Studio Code. You may find following steps helpful:
   
-*Go to Visual Studio Code, and press `Ctrl` + ``` to call terminal
+*Go to Visual Studio Code, and press `Ctrl` + ` to call terminal
     
 *Press `Ctrl` + `Shift` + `P` to turn on the command palette
     
@@ -82,6 +82,26 @@ Or directly accessible in VSC Terminals:
   
   **Using SSH for remote access**
   
-  Open the terminal again by `Ctrl` + ```
-  Then, type `ssh cs15lwi23(your letters)@ieng6.ucsd.edu`
+  Open the terminal again by `Ctrl` + `
+  Then, enter `ssh cs15lwi23(your letters)@ieng6.ucsd.edu`
   
+  Next, enter the password you set up just now.
+  
+  After successfully logging in, you should see things like this:
+  
+  
+   **Trying out some commands**
+   
+  Following commands are provided as some references to your testing inputs.
+    ```
+    cd ~
+    cd
+    ls -lat
+    ls -a
+    ls /home/linux/ieng6/cs15lwi23/cs15lwi23(your letters)
+    cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
+    cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+    ```
+    
+   Here are some of the results from testing inputs:
+   
