@@ -96,6 +96,7 @@ Or directly accessible in VSC Terminals.
   **Using SSH for remote access**
   
   Open the terminal again by `Ctrl` + `
+  
   Then, enter `ssh cs15lwi23(your letters)@ieng6.ucsd.edu`
   
   Next, enter the password you set up just now.
