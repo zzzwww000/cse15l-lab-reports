@@ -129,11 +129,19 @@ Or directly accessible in VSC Terminals.
    Here are some explanations to what each line of these commands means:
    > cd <path> : It means "Change Directory". This command switches the current working directory to the path given.
   
+  You can see your path by using `pwd`, and it prints your current working path.  
+  
    > ls <path> : It means "List". This command displays all the files in the working directory of the given path.
+  
+  After using this command, if there exists any files in the path, all their names should be printed out.
   
    > cp <source_path> <target_path>: It means "Copy". This command copies the file in current directory to desinated directory by creating a new one or cover the original one.
   
+  Hint: try to use this command using paths that are easy to input. Like /home/test/file1.txt /home/test/target/ , and use file explorer if possible to check it out.
+  
    > cat <path1> <path2> : It means "Concatenate". It prints the contents of the one or more files in the given paths.
+  
+  You can see what a .txt file contains by using the command.
   
    > ~: it basically means "the home directory",where the user files are stored (generally in C://your name)
   
