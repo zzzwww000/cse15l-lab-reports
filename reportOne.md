@@ -21,6 +21,10 @@
   Follow the guidelines to get the application installed.
   
   After installation complete, you may need to restart your PC or laptop.
+  Here's a picture of what you should see by now:
+  
+  ![Image](Screenshots1/8.png)
+  
   > Notes: you may consider installing your VSC to other disks other than C: since system 
   > disk should have as much free space as possible.
 
@@ -121,3 +125,11 @@ Or directly accessible in VSC Terminals.
    Here are some of the results from testing inputs:
    
    ![Image](Screenshots1/screen9.png)
+
+   Here are some explanations to what each line of these commands means:
+   > cd <path> : It means "Change Directory". This command switches the current working directory to the path given.
+   > ls <path> : It means "List". This command displays all the files in the working directory of the given path.
+   > cp <source_path> <target_path>: It means "Copy". This command copies the file in current directory to desinated directory by creating a new one or cover the original one.
+   > cat <path1> <path2> : It means "Concatenate". It prints the contents of the one or more files in the given paths.
+   > ~: it basically means "the home directory",where the user files are stored (generally in C://your name)
+  
